@@ -1,4 +1,4 @@
-wufoo-wordpress-ajax
-====================
+Wufoo + Wordpress + AJAX
+========================
 
-Wuffo + Wordpress + AJAX
+Support files for the **Integrating Wufoo with Wordpress and AJAX** blog article at ThePhuse.com.
