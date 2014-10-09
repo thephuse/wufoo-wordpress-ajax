@@ -6,11 +6,11 @@
     
     $data       = wufoo_sanitize($_POST['fields']);
     $api_key    = 'XXXX-XXXX-XXXX-XXXX';
-    $identifier = 'abcdefghijkl';
-    $wufoo_id   = 'my_form';
+    $form_hash  = 'abcdefghijkl';
+    $wufoo_id   = 'my_wufoo_id';
     
     $api        = new WufooApiWrapper($api_key, $name);
-    $response   = $api->entryPost($identifier, $data);
+    $response   = $api->entryPost($form_hash, $data);
     
     header('Content-Type: application/json');
     exit(json_encode($resp));
