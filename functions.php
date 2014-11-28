@@ -9,7 +9,7 @@
     $form_hash  = 'abcdefghijkl';
     $wufoo_id   = 'my_wufoo_id';
     
-    $api        = new WufooApiWrapper($api_key, $name);
+    $api        = new WufooApiWrapper($api_key, $wufoo_id);
     $response   = $api->entryPost($form_hash, $data);
     
     header('Content-Type: application/json');
